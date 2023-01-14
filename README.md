@@ -12,6 +12,11 @@ we prepared presentations :
 https://docs.google.com/presentation/d/19nv_9J6ZR5eCWLyp-FMGH5SvDBMuudSQyeo-EOEtvz8/edit?usp=sharing
 
 ----------------------------
+14/01/2023 
+I write half of css of main page ( first page) 
+
+----------------------------
+
 // Please write it down your activity with Date , thanks ladies xx
 
 
