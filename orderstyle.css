@@ -1,0 +1,38 @@
+#title {
+  text-align: center;
+}
+body,
+footer,
+header {
+  margin: 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  border: 2px solid gainsboro;
+}
+.card img {
+  width: -webkit-fill-available;
+  height: auto;
+}
+#cardsCollection {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer h1 {
+  background-color: #a1cca5;
+  margin: 0px;
+  text-align: center;
+}
+header {
+  background-color: #a1cca5;
+}
+button numberOfItems{
+    
+}
