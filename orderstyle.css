@@ -3,8 +3,9 @@
   --white: #ffffff;
 }
 
-#title {
+#title, h2 {
   text-align: center;
+  font-family: "Quicksand", sans-serif;
 }
 body,
 footer,
@@ -15,7 +16,6 @@ header {
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 30%;
   height: auto;
   border: 2px solid gainsboro;
@@ -40,5 +40,28 @@ footer h1 {
 header {
   background-color: #a4ccc6;
 }
-button numberOfItems {
+
+.orderCardSection {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.orderCardSection button {
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1.5px solid #a4ccc6;
+  width: 100%;
+}
+.orderCardSection button:hover {
+  background-color: #a4ccc6;
+  color: white;
 }
