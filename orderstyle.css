@@ -3,7 +3,23 @@
   --white: #ffffff;
 }
 
-#title, h2 {
+nav,
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+  gap: 2em;
+}
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1em;
+}
+
+#title,
+h2,
+p {
   text-align: center;
   font-family: "Quicksand", sans-serif;
 }
@@ -16,7 +32,8 @@ header {
 .card {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  justify-content: space-between;
+  width: 25%;
   height: auto;
   border: 2px solid gainsboro;
 }
@@ -26,11 +43,11 @@ header {
 }
 #cardsCollection {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1em;
-  margin: 0 10%;
+  margin: 0;
 }
 footer h1 {
   background-color: #a4ccc6;
