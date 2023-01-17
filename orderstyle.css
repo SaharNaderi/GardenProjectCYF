@@ -1,3 +1,8 @@
+:root {
+  --mint-green: #a4ccc6;
+  --white: #ffffff;
+}
+
 #title {
   text-align: center;
 }
@@ -24,15 +29,16 @@ header {
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 1em;
+  margin: 0 10%;
 }
 footer h1 {
-  background-color: #a1cca5;
+  background-color: #a4ccc6;
   margin: 0px;
   text-align: center;
 }
 header {
-  background-color: #a1cca5;
+  background-color: #a4ccc6;
 }
-button numberOfItems{
-    
+button numberOfItems {
 }
