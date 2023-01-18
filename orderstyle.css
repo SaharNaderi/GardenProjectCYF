@@ -191,6 +191,9 @@ footer p {
     width: 40%;
     gap: 0px;
   }
+  footer {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 540px) {
