@@ -99,14 +99,12 @@ header {
 }
 
 aside h1 {
-  padding-left: 15px;
-  margin: 15px;
-}
-aside h1 {
   font-family: "Quicksand", sans-serif;
   border: 2px solid #a4ccc6;
   background-color: #a4ccc6;
   color: white;
+  padding-left: 15px;
+  margin-top: 0px;
 }
 aside {
   margin-left: 1em;
