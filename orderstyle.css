@@ -16,6 +16,10 @@ li {
   text-decoration: none;
   color: white;
 }
+
+.fa-shopping-bag {
+  color: white;
+}
 .content {
   display: flex;
   flex-direction: row;
