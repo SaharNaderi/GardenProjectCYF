@@ -135,6 +135,7 @@ body {
   letter-spacing: 1px;
   font-weight: 500;
   text-shadow: 0px 0px 1px black;
+  width: 30%;
 }
 
 #services .box img {
