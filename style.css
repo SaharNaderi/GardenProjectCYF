@@ -33,6 +33,7 @@ body {
   position: sticky;
   top: 0px;
   align-items: center;
+  font-family: "Quicksand", sans-serif;
 }
 
 #navbar::before {
@@ -60,7 +61,7 @@ body {
 /* Navigation Bar: List Styling */
 #navbar ul {
   display: flex;
-  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Quicksand", sans-serif;
 }
 
 #navbar ul li {
@@ -70,7 +71,7 @@ body {
 
 #navbar ul li a {
   /*color: hsl(0, 0%, 100%);*/
-  color: rgb(161, 204, 165);
+  color: white;
   display: block;
   padding: 9px 40px;
   border-radius: 20px;
@@ -161,6 +162,10 @@ body {
   opacity: 0.4;
 }
 
+#services .box p {
+  color: white;
+}
+
 #our-partners {
   display: flex;
   justify-content: center;
@@ -245,7 +250,7 @@ body {
   font-weight: 300;
   padding: 20px;
   font-family: "Bree Serif", serif;
-  color: rgb(161, 204, 165);
+  color: white;
 }
 
 .h-secondary {
