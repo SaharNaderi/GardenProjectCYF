@@ -3,7 +3,7 @@
   --white: #ffffff;
 }
 
-nav,
+/*nav,
 nav ul {
   display: flex;
   flex-direction: row;
@@ -15,8 +15,66 @@ nav a,
 li {
   text-decoration: none;
   color: white;
+}*/
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  align-items: center;
 }
 
+#navbar::before {
+  content: "";
+  background: var(--mint-green);
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+  margin: 10px 20px;
+}
+
+#logo img {
+  height: 56px;
+  margin: 6px 8px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul {
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+#navbar ul li a {
+  /*color: hsl(0, 0%, 100%);*/
+  color: white;
+  display: block;
+  padding: 9px 40px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 95, 74);
+}
+
+#shoppingBags {
+  right: 0px;
+  padding-left: 45%;
+}
 .fa-shopping-bag {
   color: white;
 }

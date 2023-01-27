@@ -1,83 +1,193 @@
+:root {
+  --mint-green: #a4ccc6;
+  --white: #ffffff;
+}
+
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+  background-color: var(--mint-green);
+}
+
+#navbar::before {
+  content: "";
+  background: var(--mint-green);
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+  margin: 10px 20px;
+}
+
+#logo img {
+  height: 56px;
+  margin: 6px 8px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul {
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+#navbar ul li a {
+  /*color: hsl(0, 0%, 100%);*/
+  color: white;
+  display: block;
+  padding: 9px 40px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 95, 74);
+}
+
 .bg-img {
-    background-size: cover;
-    display: flex;
-    z-index: -1;
+  background-size: cover;
+  display: flex;
+  z-index: -1;
 }
 
 .text-img {
-    top: 37%;
-    position: absolute;
-    left: 35%;
-    transform: translate(-50%, -50%)
-
+  top: 37%;
+  position: absolute;
+  left: 35%;
+  transform: translate(-50%, -50%);
 }
 
-.text-img h1,h2 {
-    color: rgb(255, 233, 247);
-	font-size: 36px;
+.text-img h1,
+h2 {
+  color: rgb(255, 233, 247);
+  font-size: 36px;
 }
 
-#digital-clock{
-	color: #ffffff;
-	font-size: 6vh;
-	position: absolute;
-	left: 70%;
+#digital-clock {
+  color: #ffffff;
+  font-size: 6vh;
+  position: absolute;
+  left: 70%;
 }
 
 .container {
-	background-color: white;
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    margin-top: -400px;
-    display: flex;
-	align-items: center;
-	left: 62%;
-    flex-direction: column;
-    gap: 1.5rem;
-    box-shadow: rgb(0 0 0 / 24%) -4px 3px 8px;
-    z-index: 1;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  margin-top: -400px;
+  display: flex;
+  align-items: center;
+  left: 62%;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-shadow: rgb(0 0 0 / 24%) -4px 3px 8px;
+  z-index: 1;
 }
 
-.event{
-	width: 100%;
-	height: 50rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 1rem;
+.event {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
-.event1{
-	width: 100%;
-	height: 25rem;
-	background-color: #b3d9af;
-	display: flex;
-	flex-direction: row;
-	justify-content:space-around;
-	gap: 5rem;
+.event1 {
+  width: 100%;
+  height: 25rem;
+  background-color: #b3d9af;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5rem;
 }
 
-.signup{
-	width: 100%;
-	height: 20rem;
-	background-image: url('/Img/Newsletter-Image-Large_0\ \(1\).jpg');
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	font-size: 18px; 
-
+.signup {
+  width: 100%;
+  height: 20rem;
+  background-image: url("/Img/Newsletter-Image-Large_0\ \(1\).jpg");
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
 
 button {
-	background-color: #04AA6D;
-	border-radius: 30%;
-	color: white;
-	padding: 10px 22px;
-	text-decoration: none;
-	margin: 4px 2px;
-	cursor: pointer;
-  }
+  background-color: #04aa6d;
+  border-radius: 30%;
+  color: white;
+  padding: 10px 22px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(186, 219, 208);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+.socialMedia a {
+  font-size: 40px;
+}
+footer p {
+  font-size: 16px;
+}
+.fa {
+  padding: 5px 30px;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  color: white;
+  font-size: 70px;
+  margin: 5px 2px;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  color: white;
+}
+.fa-google {
+  color: white;
+}
+.fa-facebook-f:before {
+  font-size: 300px;
+}
