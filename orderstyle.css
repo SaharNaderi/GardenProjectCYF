@@ -67,8 +67,8 @@ li {
 }
 
 #navbar ul li a:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(64, 95, 74);
+  color: #a4ccc6;
+  background-color: white;
 }
 
 #shoppingBags {

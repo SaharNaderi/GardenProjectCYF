@@ -72,8 +72,8 @@ hr {
 }
 
 #navbar ul li a:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(64, 95, 74);
+  color: #a4ccc6;
+  background-color: white;
 }
 
 .bg-img {
@@ -143,7 +143,6 @@ hr {
 .signup {
   width: 100%;
   height: 20rem;
-  background-image: url("/Img/Newsletter-Image-Large_0\ \(1\).jpg");
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -155,8 +154,9 @@ hr {
   text-align: center;
 }
 button {
-  background-color: #04aa6d;
-  border-radius: 30%;
+  background-color: #a4ccc6;
+  border-radius: 5px;
+  border-color: #a4ccc6;
   color: white;
   padding: 10px 22px;
   text-decoration: none;
